@@ -17,7 +17,7 @@
 
 \begin{document}
 
-\title{\hei 光线追踪算法的一些思考和实现}
+\title{\hei 光线追踪算法的实现和思考}
 \author{\fs 丁戍 \small{\fs (学号 13307130299)}}
 \date{\small \fs 2013 年 12 月 3 日}
 \twocolumn[ \begin{@twocolumnfalse} 
@@ -298,6 +298,7 @@ s=\cos^{50}{\theta}
 类似的，球面映射也可以通过极坐标（确定经纬度）来计算。
 
 \section{\hei 折射}
+\subsection{\hei 折射定律}
 光线折射遵循斯涅耳定律
 \begin{equation}
 \frac{\sin{\theta_1}}{\sin{\theta_2}}=\frac{n_2}{n_1}
@@ -313,5 +314,26 @@ s=\cos^{50}{\theta}
 \includegraphics[scale=0.6]{fig10.pdf}
 \caption{计算折射光线}
 \end{figure}
+
+由正弦定理：
+\begin{align}
+\frac{|OB|}{\sin{\angle OCB}}=\frac{r}{\sin{\angle OBC}}\\
+\frac{|OA|}{\sin{\angle OCA}}=\frac{r}{\sin{\angle OAC}}
+\end{align}
+
+由折射定律：
+\begin{align}
+\frac{\sin{\angle OCB}}{\sin{\angle OCA}}=\frac{n_2}{n_1}
+\end{align}
+
+又因为
+\begin{equation}
+\angle OCA + \angle OAC = \angle OCB + \angle OBC
+\end{equation}
+
+结合上面四个方程就可解出折射光线。
+
+\subsection{\hei 一些问题}
+考虑折射（穿透）时，往往会产生不止一个交点，需要就发光点与物体位置关系进行讨论。当光线存在于物体内部时，折射率应该倒过来。当折射角大于$90°$时应该不予考虑。
 
 \end{document}

@@ -36,4 +36,6 @@
 \BOOKMARK [1][-]{section.7}{纹理}{}% 36
 \BOOKMARK [2][-]{subsection.7.1}{改进后的光线追踪效果图}{section.7}% 37
 \BOOKMARK [1][-]{section.8}{折射}{}% 38
-\BOOKMARK [2][-]{subsection.8.1}{计算折射光线}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.1}{折射定律}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.2}{计算折射光线}{section.8}% 40
+\BOOKMARK [2][-]{subsection.8.3}{一些问题}{section.8}% 41
