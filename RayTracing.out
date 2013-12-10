@@ -9,7 +9,7 @@
 \BOOKMARK [3][-]{subsubsection.3.1.3}{其他几何体}{subsection.3.1}% 9
 \BOOKMARK [2][-]{subsection.3.2}{反射光线}{section.3}% 10
 \BOOKMARK [2][-]{subsection.3.3}{折射光线}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.4}{光照表现}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Lambert 明暗模型}{section.3}% 12
 \BOOKMARK [2][-]{subsection.3.5}{颜色}{section.3}% 13
 \BOOKMARK [3][-]{subsubsection.3.5.1}{光照颜色}{subsection.3.5}% 14
 \BOOKMARK [3][-]{subsubsection.3.5.2}{叠加颜色}{subsection.3.5}% 15
@@ -28,7 +28,7 @@
 \BOOKMARK [1][-]{section.5}{阴影}{}% 28
 \BOOKMARK [2][-]{subsection.5.1}{计算方法}{section.5}% 29
 \BOOKMARK [2][-]{subsection.5.2}{阴影效果}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.3}{软阴影和漫反射}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.3}{软阴影、抗锯齿和漫反射}{section.5}% 31
 \BOOKMARK [3][-]{subsubsection.5.3.1}{采样}{subsection.5.3}% 32
 \BOOKMARK [3][-]{subsubsection.5.3.2}{蒙特卡罗算法}{subsection.5.3}% 33
 \BOOKMARK [3][-]{subsubsection.5.3.3}{软阴影和漫反射效果}{subsection.5.3}% 34
@@ -39,3 +39,19 @@
 \BOOKMARK [2][-]{subsection.8.1}{折射定律}{section.8}% 39
 \BOOKMARK [2][-]{subsection.8.2}{计算折射光线}{section.8}% 40
 \BOOKMARK [2][-]{subsection.8.3}{一些问题}{section.8}% 41
+\BOOKMARK [2][-]{subsection.8.4}{折射效果演示}{section.8}% 42
+\BOOKMARK [1][-]{section.9}{景深}{}% 43
+\BOOKMARK [2][-]{subsection.9.1}{叠加方法}{section.9}% 44
+\BOOKMARK [2][-]{subsection.9.2}{蒙特卡罗方法}{section.9}% 45
+\BOOKMARK [1][-]{section.10}{实时计算}{}% 46
+\BOOKMARK [1][-]{section.11}{效率}{}% 47
+\BOOKMARK [2][-]{subsection.11.1}{减少不必要的递归计算}{section.11}% 48
+\BOOKMARK [2][-]{subsection.11.2}{叠加方法添加概率模型}{section.11}% 49
+\BOOKMARK [2][-]{subsection.11.3}{盒包围模型}{section.11}% 50
+\BOOKMARK [2][-]{subsection.11.4}{基于硬件的优化}{section.11}% 51
+\BOOKMARK [2][-]{subsection.11.5}{并行、分布式算法}{section.11}% 52
+\BOOKMARK [1][-]{section.12}{展望}{}% 53
+\BOOKMARK [2][-]{subsection.12.1}{光子映射（Photon Mapping）}{section.12}% 54
+\BOOKMARK [2][-]{subsection.12.2}{辐射度算法}{section.12}% 55
+\BOOKMARK [2][-]{subsection.12.3}{材质}{section.12}% 56
+\BOOKMARK [2][-]{subsection.12.4}{动态、自适应以及其他}{section.12}% 57
